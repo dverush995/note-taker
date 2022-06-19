@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Note Taker</title>
+</head>
+<body>
+    <h1 class="logo">Note Taker</h1>
+    <div class="container">
+        <div class="add-note">
+            <form>
+                <label for="note-text">Note:</label>
+                <textarea name="note-text" id="note-text" cols="30" rows="10" class="note-text" 
+                placeholder="Write your note here"></textarea>
+                <button type="submit" class="add-note-button">Add note</button>
+            </form>
+        </div>
+        <div class="notes">
+            <h2 class="no-notes">No notes added yet...</h2>
+        </div>
+    </div>
+    <script src="assets/javascript/app.js"></script>
+</body>
+</html>
